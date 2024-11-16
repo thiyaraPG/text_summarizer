@@ -1,0 +1,119 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.textarea-container {
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+}
+
+textarea {
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    resize: none;  /* Disable resizing */
+}
+
+/* Scroll button container */
+.arrow-container {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 20px); /* Match the height of the textarea */
+    justify-content: space-between;
+}
+
+/* Scroll button styling */
+.scroll-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Hover effect for scroll buttons */
+.scroll-button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);  /* Slight hover lift */
+}
+
+/* Focus effect */
+.scroll-button:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Submit button hover */
+input[type="submit"]:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);  /* Slight hover lift */
+}
+
+h2 {
+    color: #333;
+    margin-top: 20px;
+}

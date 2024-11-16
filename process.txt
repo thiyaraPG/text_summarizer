@@ -1,0 +1,21 @@
+(base) C:\Users\User>D:
+
+(base) D:\>cd D:\sliit\Y3S1\IWRA\final_code_2
+
+(base) D:\sliit\Y3S1\IWRA\final_code_2\code>conda create -n irwa_summary_env
+
+(base) D:\sliit\Y3S1\IWRA\final_code_2\code>conda activate irwa_summary_env
+
+(irwa_summary_env) D:\sliit\Y3S1\IWRA\final_code_2\code>pip install flask
+
+(irwa_summary_env) D:\sliit\Y3S1\IWRA\final_code_2\code>pip install nltk
+
+(irwa_summary_env) D:\sliit\Y3S1\IWRA\final_code_2\code>pip install gensim (before installing dowgrade scipy yo 1.12.0)
+
+(irwa_summary_env) D:\sliit\Y3S1\IWRA\final_code_2\code>pip install transformers
+
+(irwa_summary_env) D:\sliit\Y3S1\IWRA\final_code_2\code>pip install torch
+
+(irwa_summary_env) D:\sliit\Y3S1\IWRA\final_code_2\code>pip install xgboost
+
+(irwa_summary_env) D:\sliit\Y3S1\IWRA\final_code_2\code>pip install scikit-learn
